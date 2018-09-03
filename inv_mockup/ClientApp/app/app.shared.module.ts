@@ -9,6 +9,8 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { TopNavComponent } from './components/top-nav/top-nav.component';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +18,9 @@ import { CounterComponent } from './components/counter/counter.component';
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
-        HomeComponent
+        HomeComponent,
+        TopNavComponent,
+        CategoryComponent
     ],
     imports: [
         CommonModule,

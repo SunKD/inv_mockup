@@ -1,0 +1,16 @@
+﻿.top-nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 30px;
+}
+
+.user {
+    color: cornsilk;
+    margin-right: 20px;
+}
