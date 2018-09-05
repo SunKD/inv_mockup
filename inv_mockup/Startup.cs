@@ -26,7 +26,7 @@ namespace inv_mockup
         {
             services.AddMvc();
 
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=inv_mockup.NewDb;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=inv_mockup.NewDb;Trusted_Connection=False;ConnectRetryCount=0";
             services.AddDbContext<invDatabaseContext>(options => options.UseSqlServer(connection));
             
         }
